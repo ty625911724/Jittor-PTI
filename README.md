@@ -1,7 +1,7 @@
 # Jittor version: Pivotal Tuning for Latent-based editing of Real Images (PTI)
 
 **Pivotal Tuning for Latent-based editing of Real Images**  
-Daniel Roich, Ron Mokady, Amit H. Bermano, Daniel Cohen-Or. In <a href="https://arxiv.org/abs/2106.05744">.
+Daniel Roich, Ron Mokady, Amit H. Bermano, Daniel Cohen-Or. In [ArXiv](https://arxiv.org/abs/2106.05744).
 
 <p align="center">
 <img src="docs/teaser.jpg" width="800px"/>
@@ -11,13 +11,11 @@ The original page: [Project Page](https://github.com/danielroich/PTI)
 
 ## Notes
 We implement the PTI inversion method for facial images, both for StyleGAN2 and StyleGAN3. 
-
 The official weight are converted to jittor for StyleGAN2 and StyleGAN3 generator. 
 
 The Google Drive link of StyleGAN2 and StyleGAN3 generator weight: https://drive.google.com/drive/folders/1SIY2O6_lQ4Dl8RSWwcjRzSuMnrYVBhU9?usp=sharing
 
 The e4e weight could be downloaded from [Jittor e4e inplementation](https://github.com/ty625911724/Jittor_E4E)
-
 Download all the weights and put them in `./weights/` directory. 
 
 The LPIPS jittor is also required. Download the weights form [Jittor LPIPS inplementation](https://github.com/ty625911724/Jittor_Perceptual-Similarity-Metric) and put them in `./lpips/weights/` directory. 
