@@ -11,11 +11,11 @@ The original page: [Project Page](https://github.com/danielroich/PTI)
 
 ## Notes
 We implement the PTI inversion method for facial images, both for StyleGAN2 and StyleGAN3. 
-The official weight are converted to jittor for StyleGAN2 and StyleGAN3 generator. 
+The official weight are converted to jittor for StyleGAN2 and StyleGAN3 generator. Download and put them in `./weights/` directory. 
 
 The Google Drive link of StyleGAN2 and StyleGAN3 generator weight: https://drive.google.com/drive/folders/1SIY2O6_lQ4Dl8RSWwcjRzSuMnrYVBhU9?usp=sharing
 
-The e4e weight could be downloaded from [Jittor e4e inplementation](https://github.com/ty625911724/Jittor_E4E)
+The e4e weight could be downloaded from [Jittor e4e inplementation](https://github.com/ty625911724/Jittor_E4E).
 Download all the weights and put them in `./weights/` directory. 
 
 The LPIPS jittor is also required. Download the weights form [Jittor LPIPS inplementation](https://github.com/ty625911724/Jittor_Perceptual-Similarity-Metric) and put them in `./lpips/weights/` directory. 
